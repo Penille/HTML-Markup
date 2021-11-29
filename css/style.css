@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav{
+position: fixed;
+width: 100%;
+  }
+     
+  
+#nav-wrapper {
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+      justify-content: space-between;
+      background-color: rgba(105, 110, 119, 0.877);
+      border-radius: 10px;
+    
+}
+
+#nav-wrapper ul{
+    width: 70%;
+    display: flex;
+    list-style: none;
+    
+}
+
+#nav-wrapper ul li a{
+text-decoration: none;
+color: white;
+padding:15px;
+}
+
+
+#logo{
+    height: 100px;
+    border-radius: 10px;
+}
+
+#nav-wrapper li:last-child{
+    margin-left: auto;  
+}
+
+.full-view-height{
+    background-image: url(/img/mountain-gea01647ba_1920.jpg);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    background-color: rgb(70, 70, 70);
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    padding:15px;
+    margin: 10px;
+}
+
+#about-education h2{
+    margin: 0 auto;
+    max-width: 1080px;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+#tree-columns{
+    column-count: 3;
+    column-width: 320px;
+    column-gap: 30px;
+    padding: 20px;
+}
+
+#newsletter h2{
+    margin: 0 auto;
+    max-width: 1080px;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+#html-validation{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 30%;    
+}
+
+#html-validation input{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+#gallery{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    gap: 20px; 
+    padding: 20px;
+}
+
+#gallery img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer{
+ display: flex;
+text-align: center;
+background-color:  rgb(105, 110, 119);
+padding: 10px 20px;
+justify-content: center;
+}
+
+address{
+    width: 100%;
+    max-width: 280px;
+}
+
+#footer-links{
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#footer-links ul{
+    list-style: none;
+}
+
+#footer-links ul li a{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
